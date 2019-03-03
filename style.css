@@ -1,0 +1,175 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+section {
+  padding: 10px 0;
+}
+@media (min-width: 768px) {
+  section {
+    padding: 20px 0; } 
+}
+
+.del-1 {
+  -webkit-animation-delay: .3s;
+  animation-delay: .3s;
+}
+
+.del-2 {
+  -webkit-animation-delay: .6s;
+  animation-delay: .6s;
+}
+
+
+/*Emphasize text*/
+.emph {
+  font-weight: 400;
+}
+
+/*Paragraph style*/
+p {
+  font-family:'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/*Section headers used in this template*/
+.header {
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #244987;
+}
+.header-sm {
+  font-size: 17px;
+  font-weight: 400;
+}
+.header-lg {
+  font-size: 40px;
+  color: #244987;
+}
+.header-xlg {
+  font-size: 50px;
+  padding: 0 0 20px 0;
+  color: #244987;
+
+}
+
+
+/* Navbar Formatting */
+#naver {
+  transition: all .5s;
+}
+.divide {
+   box-shadow: 0 .2px 3px #aaa !important;
+
+}
+.nav-head {
+  color: #244987 !important;
+  font-size: 24px !important;
+  font-weight: 200;
+}
+
+.nav-link {
+  font-size: 18px !important;
+  font-weight: 200;
+}
+
+.nav-link:hover{
+  color: #244987 !important;
+}
+
+/* Schedule Section Formating*/
+.schedule{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  
+  padding-top: 0px;
+  padding-bottom: 50px;
+}
+
+.schedule-header-bar {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.schedule a {
+  color: #5186db;
+  opacity: 0.85;
+}
+.schedule a:hover {
+  color: #3f6eba;
+  opacity: 1.0;
+  text-decoration: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+@media only screen and (min-width: 768px) {
+  .week {
+    text-align: right;
+  }
+}
+
+
+/* Team Section Formating*/
+.team-member {
+  text-align: center;
+}
+.team-member img {
+  width: 225px;
+  height: 225px;
+  resize: both;
+  border: 7px solid #fff;}
+.team-member p {
+  margin-top: 0;
+  margin-bottom: 3px;
+  padding-bottom: 0;
+}
+.team-description {
+/*  font-style: italic;*/
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+}
+#team {
+  padding: 50px 0;
+}
+
+
+/*Footer*/
+footer {
+  padding: 25px 0;
+  text-align: center; 
+}
+
+
+/* Font Awsome Icons*/
+.social-icons {
+  word-spacing: 10px;
+  font-size: 18px;
+}
+
+.social-icons a {
+  color: black;
+  opacity: .5;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.social-icons a:hover {
+  opacity: .9;
+  color: #0a244f;
+}
+
+
