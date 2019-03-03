@@ -6,6 +6,12 @@ body {
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.disabled a{
+  pointer-events: none;
+  cursor: default;
+  color: gray!important;
+}
+
 
 section {
   padding: 10px 0;
@@ -68,7 +74,7 @@ p {
   transition: all .5s;
 }
 .divide {
-   box-shadow: 0 .2px 3px #aaa !important;
+  box-shadow: 0 .2px 3px #aaa !important;
 
 }
 .nav-head {
@@ -91,7 +97,7 @@ p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 16px;
-  
+
   padding-top: 0px;
   padding-bottom: 50px;
 }
@@ -137,7 +143,7 @@ p {
   padding-bottom: 0;
 }
 .team-description {
-/*  font-style: italic;*/
+  /*  font-style: italic;*/
   font-size: 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 200;
